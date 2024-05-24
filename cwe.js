@@ -51,12 +51,7 @@ function CWE_484() { // SWITCH_CASE_FALL_THROUGH
         case '2': console.log('Do another thing');
     }
 }
-// Add 1 line
-// Add 1 line
-// Add 1 line
-// Add 1 line
-// Add 1 line
-// Add 1 line
+
 function CWE_489_569_570_571() { // CONSTANT_CONDITION
     var x = "Fo";
     // Add 1 line
