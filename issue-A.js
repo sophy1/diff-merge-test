@@ -5,7 +5,9 @@ function CWE_398() { // IDENTICAL_BRANCHES
         y = x;
     }
 }
-
+function CWE_482_665() { // UNUSED_EXPR
+    this.foo + 42; // deepscan-disable-line UNUSED_EXPR
+}
 
 function CWE_482_665() { // UNUSED_EXPR
     this.foo + 42; // deepscan-disable-line UNUSED_EXPR
